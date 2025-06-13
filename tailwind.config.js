@@ -6,8 +6,8 @@ export default {
   ],
   theme: {
     extend: {
-      animation: {
-    'gradient-x': 'gradient-x 8s ease infinite',
+      backgroundImage: {
+    'atras': "url('./assets/imagenes/atras.jpg')",
   },
     keyframes: {
     'gradient-x': {

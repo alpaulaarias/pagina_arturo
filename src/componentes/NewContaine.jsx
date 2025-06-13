@@ -1,20 +1,28 @@
-import { NewArticulos } from "./NewArticulos";
-
+import { NewArticulos } from './NewArticulos';
 
 export const NewContaine = () => {
   return (
-    <aside className="bg-azul text-blanco py-[28px] py-[20px]">
-        <h1 className="text-blanco text-4xl font-bold">New</h1>
+    <aside className="bg-azul text-blanco w-full sm:w-[400px] p-6 sm:p-10 rounded-xl shadow-lg mx-auto my-10">
+      <h1 className="text-3xl sm:text-4xl font-extrabold mb-6 border-b border-white/30 pb-4 text-center sm:text-left">
+        New
+      </h1>
+
+      <div className="space-y-6">
         <NewArticulos
-        tittle='que queremos'
-        text='amor comprension y ternura'/>
+          tittle="¿Qué queremos?"
+          text="Amor, comprensión y ternura."
+        />
 
         <NewArticulos
-        tittle='que hacemos'
-        text='vagabundiar'/>
+          tittle="¿Qué hacemos?"
+          text="Vagabundear con estilo y sentido."
+        />
+
         <NewArticulos
-        tittle='como lo hacemos'
-        text='siendo jovenes rebeldes'/>
+          tittle="¿Cómo lo hacemos?"
+          text="Siendo jóvenes, rebeldes y libres."
+        />
+      </div>
     </aside>
-  )
-} 
+  );
+};
